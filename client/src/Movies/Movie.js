@@ -30,7 +30,6 @@ export default class Movie extends Component {
     if(this.props.match.params.id !== newProps.match.params.id){
       this.fetchMovie(newProps.match.params.id);
     }
-    console.log(newProps)
   }
 
   saveMovie = () => {
